@@ -19,6 +19,7 @@ namespace ConsoleAppForClasses
             Console.WriteLine("FirstName: {0}", firstName);
             Console.WriteLine("LastName: {0}", lastName);
             Console.WriteLine("Salary: {0}", hourlySalary);
+            Console.WriteLine("Calling base classs method.");
             base.printDetails();    //for explicitly calling base class meghod
         }
         public override void printName()
