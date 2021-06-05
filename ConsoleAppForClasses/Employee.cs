@@ -27,5 +27,9 @@ namespace ConsoleAppForClasses
             Console.WriteLine("FirstName: {0}",firstName);
             Console.WriteLine("LastName: {0}", lastName);
         }
+        public virtual void printName()
+        {
+            Console.WriteLine("Name: {0} {1}", firstName,lastName);
+        }
     }
 }

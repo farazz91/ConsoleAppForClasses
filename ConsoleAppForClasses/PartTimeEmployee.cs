@@ -21,5 +21,9 @@ namespace ConsoleAppForClasses
             Console.WriteLine("Salary: {0}", hourlySalary);
             base.printDetails();    //for explicitly calling base class meghod
         }
+        public override void printName()
+        {
+            Console.WriteLine("Name: {0}", firstName);            
+        }
     }
 }

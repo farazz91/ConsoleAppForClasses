@@ -21,5 +21,10 @@ namespace ConsoleAppForClasses
             Console.WriteLine("LastName: {0}", lastName);
             Console.WriteLine("Salary: {0}",yearlySalary);
         }
+
+        public override void printName()
+        {
+            Console.WriteLine("Name: {0}", firstName);
+        }
     }
 }
