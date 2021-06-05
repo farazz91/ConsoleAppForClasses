@@ -57,6 +57,13 @@ namespace ConsoleAppForClasses
             Add(1.1f, 1.2f);
             Add(1.1f, 1.2f, 1.3f);
             Add(1, 1.1f);
+
+            Console.WriteLine();
+            Console.WriteLine("Properties in c#");
+            Student Stud1 = new Student();
+            Stud1.ID = 101;
+            Stud1.City = "Mysore";
+            Stud1.PrintStudentDetails();
         }
         //Method Overloading
         public static void Add(int fn, int sn)
