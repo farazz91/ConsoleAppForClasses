@@ -14,5 +14,12 @@ namespace ConsoleAppForClasses
         {
             Console.WriteLine("Part time Employee custructor.");
         }
+        public new void printDetails()
+        {
+            Console.WriteLine("FirstName: {0}", firstName);
+            Console.WriteLine("LastName: {0}", lastName);
+            Console.WriteLine("Salary: {0}", hourlySalary);
+            base.printDetails();    //for explicitly calling base class meghod
+        }
     }
 }
