@@ -17,6 +17,24 @@ namespace ConsoleAppForClasses
 
             Circle circle2 = new Circle(9);
             Console.WriteLine("Radius of circle is: {0}", circle2.calculateRadius().ToString());
+
+            Employee Emp1 = new Employee("Assigning value to base classs constructor");
+            Emp1.firstName = "Sarfaraz";
+            Emp1.lastName = "Ahmed";
+            Emp1.printDetails();
+
+            FullTimeEmployee Femp1 = new FullTimeEmployee();
+            Femp1.firstName = "Faraz";
+            Femp1.lastName = "Khan";
+            Femp1.yearlySalary = 10000;
+            Femp1.printDetails();
+
+            PartTimeEmployee Pemp1 = new PartTimeEmployee();
+            Pemp1.firstName = "Tom";
+            Pemp1.lastName = "Jerry";
+            Pemp1.hourlySalary = 500;
+            Pemp1.printDetails();
+
         }
     }
 }
